@@ -1,0 +1,28 @@
+server:
+  port: 8085
+
+spring:
+  application:
+    name: sayona apps
+  datasource:
+    url: jdbc:mysql://localhost:3306/prissy_db
+    username: root
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        jdbc:
+          time_zone: UTC
+        format_sql: true
+    show-sql: true
+    database: MySQL
+    database-platform: org.hibernate.dialect.MySQLDialect
+  springdoc:
+    swagger-ui:
+      path: /api-docs  # Set a custom path for Swagger UI (optional)
+      configurationUrl: "http://localhost:8181/api-docs"
+STRIPE_SECRET_KEY: sk_test_51PcnvDIytH5egWAWDSsGCgYPBgAKHj30957PeJ0AzIIBTcRUpuWimkxhCP8nhuxXIUuJvJRVdYgL75zL3DPJoT3K00lYLLIn2F
+BASE_URL: http://localhost:8081/
