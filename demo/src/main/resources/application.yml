@@ -24,5 +24,5 @@ spring:
     swagger-ui:
       path: /api-docs  # Set a custom path for Swagger UI (optional)
       configurationUrl: "http://localhost:8181/api-docs"
-STRIPE_SECRET_KEY: sk_test_51PcnvDIytH5egWAWDSsGCgYPBgAKHj30957PeJ0AzIIBTcRUpuWimkxhCP8nhuxXIUuJvJRVdYgL75zL3DPJoT3K00lYLLIn2F
-BASE_URL: http://localhost:8081/
+#STRIPE_SECRET_KEY: your secret key
+#BASE_URL: your base url

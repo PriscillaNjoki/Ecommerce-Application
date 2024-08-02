@@ -31,3 +31,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Ignore application.yml files located inside any resources directory
+**/resources/application.yml
+
